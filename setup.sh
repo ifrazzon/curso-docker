@@ -11,4 +11,4 @@ bash postinstall.sh
 
 echo "Start vagrant"
 
-vagrant up :wq
+vagrant up

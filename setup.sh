@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 #
-# curl -sSL https://raw.githubusercontent.com/ifrazzon/curso-docker/master/setup.sh | bash -s
+# curl -sSL https://github.com/ifrazzon/curso-docker/blob/master/setup.sh | bash -s
 
 echo "Checkout Git Repository"
 git clone https://github.com/ifrazzon/curso-docker.git

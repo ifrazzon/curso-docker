@@ -59,7 +59,7 @@ Criar a estrutura de diretórios conforme representado abaixo:
     EMAIL VARCHAR(30)
     )ENGINE=MyISAM;
     ;;
-    INSERT INTO CONTATO (NOME,TELEFONE,DATA_NASC,EMAIL) VALUES('IGOR FRAZZON', '981447368','1984-01-15','igor.frazzon@gmail.com');
+    INSERT INTO CONTATO (NOME,TELEFONE,DATA_NASC,EMAIL) VALUES('JORGE SILVA', '981447654','1984-02-15','jorge@gmail.com');
     
  
 ### Gerar imagem customizada com nome mysql-condors:5.6
@@ -111,7 +111,7 @@ Criar a estrutura de diretórios conforme representado abaixo:
     +--------------+-----------+------------+------------------------+
     | NOME         | TELEFONE  | DATA_NASC  | EMAIL                  |
     +--------------+-----------+------------+------------------------+
-    | IGOR FRAZZON | 981447368 | 1984-01-15 | igor.frazzon@gmail.com |
+    | JORGE SILVA | 981447654 | 1984-02-16 | jorge@gmail.com         |
     +--------------+-----------+------------+------------------------+
 
 De acordo com o retorno do comando, verficamos que está tudo ok, e podemos passar para o passo de orquestrar no ambiente com o docker-compose.

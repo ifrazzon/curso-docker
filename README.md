@@ -1,4 +1,4 @@
-# ORQUESTRAÇÃO COM DOCKER-COMPOSE
+# ORQUESTRAÇÃO COM DOCKER-COMPOSE UTILIZANDO VIRTUALBOX VAGRANT
 
 Criação de uma POC de banco maysql 5.6 com integração do PhpMyAdmin
 

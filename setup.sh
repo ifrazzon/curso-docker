@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# curl -sSL https://raw.githubusercontent.com/marcelbirkner/docker-ci-tool-stack/master/setup.sh | bash -s
+# curl -sSL https://raw.githubusercontent.com/ifrazzon/curso-docker/master/setup.sh | bash -s
 
 echo "Checkout Git Repository"
 git clone https://github.com/ifrazzon/curso-docker.git
@@ -11,4 +11,4 @@ bash postinstall.sh
 
 echo "Start vagrant"
 
-vagrant up 
+vagrant up :wq

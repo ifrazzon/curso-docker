@@ -1,0 +1,29 @@
+version: '3.3'
+services:
+  db:
+    build:
+      context: ./mysql/
+      args:
+        - pwdMysql=condors 
+    ports:
+      - "3306:3306"
+    volumes:
+      - data:/var/lib/mysql
+    networks:
+      - network-mysql
+  app:
+    image: phpmyadmin/phpmyadmin:latest
+    links:
+      - db
+    ports:
+      - 80:80
+    environment:
+      - PMA_ARBITRARY=1
+    networks:
+      - network-mysql
+
+networks:
+   network-mysql:
+
+volumes:
+  data:
